@@ -1,2 +1,2 @@
 # home2
-home2
+index page
