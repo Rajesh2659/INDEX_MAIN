@@ -1,2 +1,2 @@
-# home2
+INDEX_MAIN
 index page
