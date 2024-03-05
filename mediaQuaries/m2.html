@@ -12,12 +12,24 @@
 
       .column {
         display: flex;
-        flex-direction: column;
+        flex: 1;
       }
 
       .column img {
         max-width: 100%;
         margin: 5px;
+      }
+      @media only screen and (min-width: 400px) and (max-width: 1000px) {
+        .column {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+        .column {
+          display: flex;
+          flex-wrap: wrap;
+        }
       }
     </style>
   </head>
